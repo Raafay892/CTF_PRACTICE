@@ -55,3 +55,30 @@ Then got the js and css files where i got the other two parts of the flag.
 1.t3ct1ve_0r_ju5t
 2._lucky?2e7b23e3}
 flag: picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?2e7b23e3}
+
+Scavenger Hunt
+ | 50 points 
+AUTHOR: MADSTACKS
+
+Description
+There is some interesting information hidden around this site http://mercury.picoctf.net:39491/. Can you find it?
+
+Hint:
+You should have enough hints to find the files, don't run a brute forcer.
+
+Solution :
+just open the main page source got the first part as
+picoCTF{t
+now open the js and css file we got 
+h4ts_4_l0
+now get the directories using sublist3r or any other tool
+now go to the robots.txt
+we get the third part
+t_0f_pl4c
+now go to the .htaccess file we get the 4 part 
+3s_2_lO0k
+now go to the .DS_Store file we get the 5 part 
+ _f7ce8828}
+ and finally we complete the flag 
+ 
+ flag: picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_f7ce8828}
