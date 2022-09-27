@@ -35,3 +35,23 @@ solution uses the addon "Cookie manager and cookie editor" which is used to edit
 increasing the value to 18 and then  refreshing the webpage we got the flag.
 
 flag : picoCTF{3v3ry1_l0v3s_c00k135_064663be}
+
+Insp3ct0rHow do you inspect web code on a browser?
+
+ | 50 points
+ 
+AUTHOR: ZARATEC/DANNY
+
+Description
+Kishor Balan tipped us off that the following code may need inspection: https://jupiter.challenges.picoctf.org/problem/9670/ (link) or http://jupiter.challenges.picoctf.org:9670
+
+Hints:
+How do you inspect web code on a browser?
+There's 3 parts.
+
+Solution:
+Just open the source code and got the clue of flag here in comment:   picoCTF{tru3_d3
+Then got the js and css files where i got the other two parts of the flag.
+1.t3ct1ve_0r_ju5t
+2._lucky?2e7b23e3}
+flag: picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?2e7b23e3}
